@@ -1,0 +1,55 @@
+body{
+  background: #3d5555;
+  font-size: 150%;
+  margin: 2%;
+}
+header,footer{
+  background: #052220;
+  text-align: center;
+    padding: 3%;
+}
+
+footer{
+clear:both;
+color:#be9e94;
+}
+
+h1{
+  color: #825b1b;
+  font-variant: small-caps;
+}
+
+nav{
+font-variant: small-caps;
+font-size: 150%;
+}
+
+a{
+  color: #be9e94;
+
+}
+
+h2{
+  color: #825b1b;
+  background: #052220;
+  font-variant: small-caps;
+}
+
+details{
+  font-style: italic;
+}
+
+summary{
+  font-style: normal;
+}
+
+img{
+  width: 105px;
+}
+section{
+  display: inline-block;
+  overflow: hidden;
+  width: 30%;
+  margin: 1.65%;
+  float:left;
+}
