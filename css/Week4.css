@@ -1,0 +1,96 @@
+header{
+
+  font-family: "Poppins", "Mukta",  sans-serif;
+  background-color: #d0e9f2 ;
+  text-align: center;
+  margin-bottom: 2%;
+  width:100%;
+  position:sticky;
+   top: 0;
+   z-index: 999;
+}
+
+h1,footer p{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: calc(11px + 2vw);
+  color: #495779;
+  display: inline-block;
+  margin-bottom:0;
+  line-height: inherit;
+}
+
+footer p{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: calc(8px + 2vw);
+}
+
+i{
+color: #495779;
+font-size:calc(11px + 3vw);
+}
+
+.fa-paw{
+  margin-left: 10%;
+}
+
+.fa-dog{
+  margin-right:10%;
+}
+div.container{
+  padding-bottom: 23%
+}
+
+section{
+  text-align: center;
+}
+
+img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+  max-width: 245px;
+  min-width: 216px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+div.row div{
+  height: 200px;
+}
+
+div.hasoverlay{
+  overflow: hidden;
+}
+
+.overlay{
+  background:rgba(0,0,0,.6);
+  color:#fff;
+  max-height:100%;
+  padding:10px;
+  position:relative;
+  transition:transform .25s ease-in-out;
+  text-align: center;
+  max-width: 245px;
+  min-width: 216px;
+  left: 50%;
+  transform:translateX(-50%);
+  font-family: "Poppins", "Mukta",  sans-serif;
+}
+
+div.hasoverlay:hover .overlay{
+  transform:translate(-50%, -100%)
+}
+
+footer{
+  text-align: center;
+  font-family: "Poppins", "Mukta",  sans-serif;
+  background-color: #d0e9f2 ;
+  text-align: center;
+  position:fixed;
+   bottom: 0;
+   z-index: 998;
+   width: 100%
+}
